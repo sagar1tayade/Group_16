@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoSuite">
+  <test thread-count="5" name="DemoTest">
+    <classes>
+      <class name="Test_testNG.Test_Keywords"/>
+      <class name="Test_testNG.Test1"/>
+      <class name="Test_testNG.Browser_Opening"/>
+      <class name="Test_testNG.testng_demo"/>
+      <class name="Test_testNG.Test_4"/>
+
+    </classes>
+  </test> <!-- DemoTest -->
+</suite> <!-- DemoSuite -->
